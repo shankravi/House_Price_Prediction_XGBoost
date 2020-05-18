@@ -11,8 +11,6 @@ train<-fread("./project/volume/data/interim/new_train_data.csv")
 
 
 #xgboost
-#was not able to test out reg model
-# so submitted this model 
 y.train<-train$SalePrice
 test$SalePrice<-0
 y.test<-test$SalePrice
